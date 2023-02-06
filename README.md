@@ -4,12 +4,14 @@ Implementation of [Variational Diffusion Models](https://arxiv.org/abs/2107.0063
 
 ## Standalone Colabs
 
+At `SimpleDiffusionColab_PyTorch.ipynb` you will find an independent and stand-alone Colab implementation of a Variational Diffusion Model (VDM), serving as an easy-to-understand demonstration of the code and principles behind the paper. [Link to open in Colab](https://colab.research.google.com/github/ehonig/vdm-pytorch/blob/main/SimpleDiffusionColab_PyTorch.ipynb). (Thanks a lot to [Alex Alemi](https://www.alexalemi.com/) and [Ben Poole](https://cs.stanford.edu/~poole/) for the original implementation of this.)
+
 At `2D_VDM_Example_PyTorch.ipynb` you will find a basic implementation, on a 2D swirl dataset and using MLPs. [Link to open in Colab](https://colab.research.google.com/github/ehonig/vdm-pytorch/blob/main/2D_VDM_Example_PyTorch.ipynb).
 
 ## Todo
 
 - [X] 2D swirl Notebook
-- [ ] EMNIST Notebook
+- [X] EMNIST Notebook
 - [ ] model_vdm.py
 
 ## Citations
